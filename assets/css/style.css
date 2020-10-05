@@ -1,0 +1,85 @@
+.fondDameDeDos{
+    width: 100%;
+    position: relative;
+}
+
+.imgDameDos{
+    width: 100%;
+}
+
+li{
+    list-style: none;
+    color: white;
+    margin: 25px;
+}
+
+.navBarDroite{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 55rem;
+}
+
+.navBarGauche{
+    position: relative;
+    bottom: 47.5rem;
+    right: 1rem;
+    
+}
+
+.liGauche{
+    font-size: 5rem;
+}
+
+.liDroite{
+    font-size: 1.5rem;
+}
+
+.pAccueil{
+    font-size: 2rem;
+    position: relative;
+    bottom: 49rem;
+    color: white;
+    left: 3rem;
+}
+
+.tailleH1{
+    width: 30%;
+}
+
+#h1Accueil{
+    font-size: 7rem;
+    position: relative;
+    bottom: 50rem;
+    color: white;
+    left: 2.75rem;
+}
+
+.buttonProject{
+    width: 10rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid white 3px;
+    color: white;
+    position: relative;
+    bottom: 48rem;
+    left: 5rem;
+    text-align: center;
+    transform: rotate3d(50% -50%);
+    transform: matrix3d(50% -50%);
+}
+
+.logoAccueil{
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-start;
+    color: red;
+    position: relative;
+    top: 2.5rem;
+   
+}
+
+.fab fa-facebook-f{
+    background-color: blueviolet;
+}
