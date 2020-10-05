@@ -9,8 +9,8 @@
 
 li{
     list-style: none;
-    color: white;
-    margin: 25px;
+
+    
 }
 
 .navBarDroite{
@@ -18,22 +18,26 @@ li{
     flex-direction: row;
     justify-content: flex-end;
     position: relative;
-    bottom: 55rem;
+    bottom: 53rem;
 }
 
 .navBarGauche{
     position: relative;
-    bottom: 47.5rem;
+    bottom: 46rem;
     right: 1rem;
     
 }
 
 .liGauche{
     font-size: 5rem;
+    color: white;
+    
 }
 
 .liDroite{
     font-size: 1.5rem;
+    margin: 25px;
+    color: white;
 }
 
 .pAccueil{
@@ -80,6 +84,197 @@ li{
    
 }
 
+/* CARD */
+
+.cardDiv{
+    position: relative;
+    bottom: 25rem;
+}
+
 .fab fa-facebook-f{
     background-color: blueviolet;
+}
+
+
+.taille{
+    font-size: 10rem;
+    border: solid black 3px;
+    margin: 3px;
+    padding: 10px 10px 10px 10px;
+}
+
+/* ABOUT ME */
+
+.fondGrisAboutMe{
+    background-color: rgb(255, 19, 204) !important;
+    width: 100%;
+    position: relative;
+    
+    
+}
+
+.buttonReadMore{
+    width: 10rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid orange 3px;
+    color: black;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.DivImgAbouUs{
+    position: absolute;
+    left: 15rem;
+    top: 1rem;
+    width: 50%;
+}
+
+.divAboutUs{
+    position: absolute;
+    left: 65rem;
+    
+    width: 80%;
+    font-size: 1rem;
+    
+}
+
+.imgAboutUsBulding{
+    width: 80%;
+}
+
+.h2AboutUs{
+    font-size: 4rem;
+    width: 40%;
+}
+
+.textAboutUs{
+   
+    width: 30%;
+}
+
+.aboutUsP{
+    color: brown;
+}
+
+/* RECENT WORK */
+
+.ulRecentWork{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 3rem;
+}
+
+.divRecentWork{
+    position: relative;
+    top: 40rem;
+}
+
+.liRecentWork{
+    margin: 15px
+}
+
+.h6RecentWork{
+    text-align: center;
+    color: orange;
+}
+
+.h2ViewOurProjet{
+    text-align: center;
+    font-weight: bold;
+}
+
+.containerDivWork{
+    position: relative;
+    top: 50rem;
+}
+
+.colsm1Ny{
+    bottom: 10rem;
+}
+
+.fondBlanc1{
+    width: 100%;
+    height: 9%;
+    background-color: white;
+    position: absolute;
+    top: 0rem;  
+}
+
+.textFondBlanc1{
+    position: relative;
+    top: 4rem;
+    left: 5rem;
+}
+
+.col11EednPArk{
+    left: 25rem;
+    bottom: 60rem;
+}
+
+.fondBlanc2{
+    width: 80rem;
+    height: 30rem;
+    background-color: white;
+    position: relative;
+    top: 10rem;
+    left: 25rem;
+   
+}
+
+.textFondBlanc2{
+    position: relative;
+    top: 23.5rem;
+    left: 0rem;
+    color: black;
+    left: 2rem;
+}
+
+.colsmParis3{
+    position: relative;
+    bottom: 65rem;
+    right: 1rem;
+}
+
+.fondBlanc3{
+    width: 20rem;
+    height: 8rem;
+    background-color: white;
+    position: relative;
+    left: 23rem;
+    top: 7rem;
+}
+
+.textFondBlanc3{
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+}
+
+.colSmNy4{
+    position: absolute;
+    bottom: 72rem;
+    right: 7rem;
+}
+
+.fondBlanc4{
+    width: 27rem;
+    height: 19.5rem;
+    background-color: white;
+    position: relative;
+    top: 12rem;
+    
+}
+
+.textFondBlanc4{
+    position: relative;
+    top: 4.95rem;
+}
+
+.p4Ny{
+    position: relative;
+    top: 2.5rem;
+    width: 15rem;
 }
