@@ -1,3 +1,13 @@
+@font-face{
+    font-family: "WorkSans-Italic-VariableFont";
+    src: url(../font/Work_Sans/WorkSans-Italic-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: "WorkSans-Italic-VariableFont", Arial, Helvetica, sans-serif !important;
+}
+
+
 .fondDameDeDos{
     width: 100%;
     position: relative;
@@ -85,8 +95,14 @@ li a{
    justify-content: flex-start;
     color: red;
     position: relative;
-    top: 2.5rem;
-   
+    top: 4rem;
+   right: 4.5rem;
+}
+
+.logoRéseauxHeader{
+    width: 4rem;
+    padding-left: 25px;
+    filter: invert(100%); 
 }
 
 /* CARD */
