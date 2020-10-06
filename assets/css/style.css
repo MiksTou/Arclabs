@@ -106,7 +106,7 @@ li{
 /* ABOUT ME */
 
 .fondGrisAboutMe{
-    background-color: rgb(255, 19, 204) !important;
+    
     width: 100%;
     position: relative;
     
@@ -277,4 +277,255 @@ li{
     position: relative;
     top: 2.5rem;
     width: 15rem;
+}
+
+/* vidéo NY */
+
+.vidéoNewYork{
+    width: 100%;
+}
+
+.imgVidéoNy{
+    width: 100%;
+}
+
+.h2Vidéo{
+    color: white;
+    position: relative;
+    bottom: 25rem;
+    left: 34rem;
+}
+
+.fontH2{
+    font-size: 4rem;
+}
+
+.logoPlay{
+    font-size: 10rem;
+    position: relative;
+    bottom: 27rem;
+    left: 42rem;
+    color: white;
+    
+}
+
+.timerVidéo{
+    color: white;
+    position: relative;
+    bottom: 29rem;
+    left: 44.5rem;
+    font-size: 2rem;
+}
+
+/* Happy Clients */
+
+.fondGrisHappy{
+    background-color: rgba(236, 226, 226, 0.782);
+    width: 100%;
+    height: 45rem;
+    position: relative;
+    bottom: 15rem;
+}
+
+.textHappyTop{
+    text-align: center;
+    position: relative;
+
+}
+
+.HappyClientsCont{
+    width: 100%;
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+}
+
+.dimensionRow{
+    width: 90rem;
+    position: relative;
+    right: 15rem;
+}
+
+.fondBlancCEO1{
+    background-color: white;
+    width: 0rem;
+}
+
+
+.fondBlancCEO2{
+    background-color: white;
+    width: 0rem;
+    position: relative;
+    left: 1rem;
+}
+
+
+.imgMichelYarde{
+    position: relative;
+    left: 2rem;
+    top: 4rem;
+    
+}
+
+.imgManudJuice{
+    position: relative;
+    left: 2rem;
+    top: 4rem;
+}
+
+.textCard1CEO{
+    width: 30rem;
+    position: relative;
+    left: 10rem;
+    bottom: 2rem;
+}
+
+.textCard2CEO{
+    width: 30rem;
+    position: relative;
+    left: 10rem;
+    bottom: 2rem;
+}
+
+.fraudeGrise{
+    width: 10%;
+    height: 20%;
+    background-color: rgba(236, 226, 226, 0.782);
+}
+
+.lineHappy1{
+    border: 2px solid gray;
+}
+
+.lineHappy2{
+    border: 2px solid  red;
+}
+
+.lineHappy3{
+    border: 2px solid rgb(23, 18, 179);
+    
+}
+
+.lineUl{
+    position: relative;
+    top: 15rem;
+    text-align: center;
+    
+}
+
+.lineUl li{
+    text-align: center;
+    display: inline;
+    margin: 15px;
+    
+}
+
+.threeLines{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   top: 15rem;
+}
+
+.lineColor{
+    background-color: rgba(171, 151, 151, 0.571);
+}
+.lineColor:hover{
+    background-color: #cea06c;
+}
+
+.lineDivTest1{
+    width: 2rem;
+    height: 0.4rem;
+    margin: 10px;
+}
+
+.lineDivTest2{
+    width: 2rem;
+    height: 0.4rem;
+    margin: 10px;
+
+}
+
+.lineDivTest3{
+    width: 2rem;
+    height: 0.4rem;
+    margin: 10px;
+
+}
+
+.spanHidden{
+    visibility: hidden;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* 5 logos Bottom */
+
+.logo5Bottom{
+    width: 100%;
+    position: relative;
+    bottom: 9rem;
+    
+}
+
+.rowLogoBottom{
+    justify-content: center;
+    
+}
+
+.marginLogo{
+    margin: 70px;
+}
+
+.couleurGrayLogo{
+    background-image: 
+    image(rgba(211, 191, 191, 0.462)), 
+    url(../img/b1.png);
+}
+
+/* footer */
+
+.fondNoirFooter{
+    background-color: black;
+    
+    width: 100%;
+}
+
+.row1Footer{
+    
+    font-size: 1.5rem;
+    position: relative;
+    
+}
+
+.ulFooter{
+    margin: 0 10px;
+    padding-top: 20px;
+}
+
+.ulFooter li{
+    margin: 10px;
+    color: gray;
+}
+
+.newsletter{
+    width: 30rem;
+}
+
+.blancMargin{
+    color: white;
+    font-weight: bold;
+}
+
+.marginBot{
+    padding-bottom: 25px;
 }
