@@ -7,11 +7,16 @@
     width: 100%;
 }
 
+
 li{
     list-style: none;
-
-    
 }
+
+li a{
+    text-decoration: none;
+}
+
+
 
 .navBarDroite{
     display: flex;
@@ -474,6 +479,7 @@ hr {
     width: 100%;
     position: relative;
     bottom: 9rem;
+    filter: grayscale(100%);
     
 }
 
@@ -528,4 +534,60 @@ hr {
 
 .marginBot{
     padding-bottom: 25px;
+}
+
+.buttonSendNewsletter{
+    width: 2rem;
+    background-color: white;
+    position: relative;
+    bottom: 5rem;
+    left: 13.9rem;
+}
+
+.inputButton{
+    width: 9rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.colorEmail{
+    text-align: center;
+    background-color: midnightblue;
+    width: 13.5rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+}
+
+.Subscribe{
+    position: relative;
+    top: 0.5rem;
+}
+
+.imageLogoBleu{
+    width: 4rem;
+    background-color: rgb(34, 83, 182);
+    margin: 7px 7px 7px 7px; 
+    
+}
+
+.tailleLogo{
+    width: 4rem;
+    filter: invert(100%); 
+}
+
+.testFlex{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 7rem;   
+}
+
+.colorWhiteCopyrigth{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.colorlib{
+    color: #cea06c;
 }

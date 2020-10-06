@@ -6,6 +6,7 @@
     <title>Arclabs</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="../bootstrapArclabs/assets/css/style.css">
+    <link rel="stylesheet" href="../bootstrapArclabs/assets/css/media_queries.css">
     <link rel="stylesheet" href="../bootstrapArclabs/assets/lib/bootstrap-4.5.2-dist/css/bootstrap.css">
 </head>
 <body>
@@ -321,14 +322,26 @@
                 <ul class="ulFooter newsletter">
                     <li class="marginBot"><span class="blancMargin">Nesletter</span></li>
                     <li>You can trust us, we only send promo offers</li>
-                    <li>Bouton Inscription Newsletter</li>
+                    <li>
+                        <form action="" method="get" class="Subscribe">
+                        <div class="Subscribe">
+                          <label for="mail"></label>
+                          <input class="colorEmail" type="text" name="mail" id="mail" value="Your Email Address" required>
+                          <div class="buttonSendNewsletter"><input type="text" class="inputButton" name="send" id="send" value="Subscribe"></div>
+                        </div>
+                    </li>
                    
                 </ul>
             </div>
 
             <div class="row">
-                <p>Copyrigth 2019 All rigths reserved | This template is made with by Colorlib</p>
-                <p>4 boutons réseaux sociaux</p>
+                <div class="col-10"><p class="colorWhiteCopyrigth">Copyrigth 2019 All rigths reserved | This template is made with by <span class="colorlib">Colorlib</span></p></div>
+                  <div class="col-2 testFlex">
+                    <div class="imageLogoBleu"><img src="../bootstrapArclabs/assets/img/logo/facebook.png" alt="logoFacebook" class="tailleLogo"></div>
+                    <div class="imageLogoBleu"><img src="../bootstrapArclabs/assets/img/logo/twitter.png" alt="logoTwitter" class="tailleLogo"></div>
+                    <div class="imageLogoBleu"><img src="../bootstrapArclabs/assets/img/logo/soccer-ball-variant.png" alt="logoBallon" class="tailleLogo"></div>
+                    <div class="imageLogoBleu"><img src="../bootstrapArclabs/assets/img/logo/linkedin.png" alt="logoLinkedin" class="tailleLogo"></div>
+                  </div>
             </div>
             
         </div>
