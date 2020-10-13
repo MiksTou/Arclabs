@@ -17,5 +17,5 @@ Main > avec avec 5 section:
 <br>
 Footer: 
 5 logos entreprises 
-footer: Top producrs, Quics Links, Features, Ressources, Nesletter etc
-Le resposive doit être réaliser.
+footer: Top products, Quick Links, Features, Ressources, Newsletter etc
+Le responsive doit être réalisé.
