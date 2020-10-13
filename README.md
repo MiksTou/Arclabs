@@ -1,5 +1,5 @@
 # Arclabs
-Reproduction d'une maquette excistante avec les langages: html, css. 
+Reproduction d'une maquette excistante avec les langages: html, css, bootstrap. 
 Création d'un Header avec une NavBar et un titre + logo de présentation, 
 Main > avec avec 5 section: 
 -Section 1 logos CARD
