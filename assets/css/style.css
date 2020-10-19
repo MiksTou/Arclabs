@@ -78,6 +78,12 @@ li a{
     transform: rotate3d(50% -50%);
     transform: matrix3d(50% -50%);
 }
+.logoRéseauxHeader{
+    width: 2.5rem;
+    position: relative;
+    right: 3rem;
+    padding-left: 15px;
+}
 
 .logoAccueil{
     display: flex;
