@@ -1,6 +1,12 @@
-.fondDameDeDos{
-    width: 100%;
+.body{
     position: relative;
+
+}
+
+.fondDameDeDos{
+    width: 80%;
+    position: relative;
+    left: 12rem;
 }
 
 .imgDameDos{
@@ -293,7 +299,9 @@ li a{
 /* vidéo NY */
 
 .vidéoNewYork{
-    width: 100%;
+    width: 80%;
+    position: relative;
+    left: 12rem;
 }
 
 .imgVidéoNy{
@@ -332,9 +340,10 @@ li a{
 
 .fondGrisHappy{
     background-color: rgba(236, 226, 226, 0.782);
-    width: 100%;
+    width: 80%;
     height: 45rem;
     position: relative;
+    left: 12rem;
     bottom: 15rem;
 }
 
@@ -398,12 +407,6 @@ li a{
     bottom: 2rem;
 }
 
-.fraudeGrise{
-    width: 10%;
-    height: 20%;
-    background-color: rgba(236, 226, 226, 0.782);
-}
-
 .lineHappy1{
     border: 2px solid gray;
 }
@@ -417,19 +420,6 @@ li a{
     
 }
 
-.lineUl{
-    position: relative;
-    top: 15rem;
-    text-align: center;
-    
-}
-
-.lineUl li{
-    text-align: center;
-    display: inline;
-    margin: 15px;
-    
-}
 
 .threeLines{
     position: relative;
@@ -508,8 +498,9 @@ hr {
 
 .fondNoirFooter{
     background-color: black;
-    
-    width: 100%;
+    width: 80%;
+    position: relative;
+    left: 12rem;
 }
 
 .row1Footer{
